@@ -1,0 +1,60 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[System.Serializable]
+public class EnemySpawnInfo
+{
+    #region Editor Variables
+    [SerializeField]
+    private string m_Name;
+    public string EnemyName
+    {
+        get
+        {
+            return m_Name;
+        }
+    }
+
+    [SerializeField]
+    private GameObject m_EnemyGO;
+    public GameObject EnemyGO
+    {
+        get
+        {
+            return m_EnemyGO;
+        }
+    }
+
+    [SerializeField]
+    private float m_TimeToNextSpawn;
+    public float TimeToNextSpawn
+    {
+        get
+        {
+            return m_TimeToNextSpawn;
+        }
+    }
+
+    [SerializeField]
+    private int m_NumberToSpawn;
+    public float NumberToSpawn
+    {
+        get
+        {
+            return m_NumberToSpawn;
+        }
+    }
+
+    [SerializeField]
+    private float m_SpawnHeight;
+    public float SpawnHeight
+    {
+        get
+        {
+            return m_SpawnHeight;
+        }
+    }
+
+    #endregion
+}
