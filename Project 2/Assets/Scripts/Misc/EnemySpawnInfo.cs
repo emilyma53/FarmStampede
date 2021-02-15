@@ -37,16 +37,6 @@ public class EnemySpawnInfo
     }
 
     [SerializeField]
-    private int m_NumberToSpawn;
-    public float NumberToSpawn
-    {
-        get
-        {
-            return m_NumberToSpawn;
-        }
-    }
-
-    [SerializeField]
     private float m_SpawnHeight;
     public float SpawnHeight
     {
