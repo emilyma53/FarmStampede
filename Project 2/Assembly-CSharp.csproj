@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemies\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Main Menu\MenuController.cs" />
+    <Compile Include="Assets\Scripts\Misc\Coin.cs" />
     <Compile Include="Assets\Scripts\Misc\EnemySpawnInfo.cs" />
     <Compile Include="Assets\Scripts\Misc\HudController.cs" />
     <Compile Include="Assets\Scripts\Misc\ScoreManager.cs" />

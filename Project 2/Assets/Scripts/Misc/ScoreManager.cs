@@ -52,6 +52,11 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
+    public void AddScore(int amount)
+    {
+        m_CurScore += amount;
+    }
+
     private void UpdateHighScore()
     {
         if (!PlayerPrefs.HasKey("HS"))

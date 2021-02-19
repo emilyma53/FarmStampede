@@ -423,23 +423,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9e380000
-      m_LastClickedID: 14494
-      m_ExpandedIDs: f4efffff6af0ffffb6f7ffffd6f7ffff6ef8ffff76f8ffff6afbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: eab5fdff0cb6fdff8cd3fdffbcd5fdff4e37feff003afeff9c3bfeff583cfeff883dfeff5e42feff3443feff5243feff6843feff8243feffa043feffda43feff1644feffa444feff5a92feff6afbffff506c00009c6c00000e6e0000426f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Spawner
-        m_OriginalName: Spawner
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -4128
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -526,19 +526,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animations
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: A:\Game Design Decal\gameDevProj2\Project 2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 26}
-    m_SelectedIDs: d0340000
-    m_LastClickedID: 13520
+    scrollPos: {x: 0, y: 42}
+    m_SelectedIDs: d6340000
+    m_LastClickedID: 13526
     m_ExpandedIDs: 00000000ca340000cc340000ce34000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -594,7 +594,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: ee3e000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -751,9 +751,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0.29, z: -7.2}
+    m_Target: {x: 5.7245526, y: -5.9680185, z: -28.673038}
     speed: 2
-    m_Value: {x: 0, y: 0.29, z: -7.2}
+    m_Value: {x: 5.7245526, y: -5.9680185, z: -28.673038}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -799,13 +799,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
-    m_Target: {x: 0.09743266, y: -0.40380877, z: 0.04327089, w: 0.90864307}
+    m_Target: {x: 0.19196527, y: 0.80157167, z: -0.33968812, w: 0.45312178}
     speed: 2
-    m_Value: {x: 0.097429775, y: -0.40379682, z: 0.043269612, w: 0.9086162}
+    m_Value: {x: 0.19195805, y: 0.80154157, z: -0.33967537, w: 0.45310476}
   m_Size:
-    m_Target: 10
+    m_Target: 12.1724615
     speed: 2
-    m_Value: 10
+    m_Value: 12.1724615
   m_Ortho:
     m_Target: 0
     speed: 2

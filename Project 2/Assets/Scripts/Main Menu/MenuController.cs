@@ -25,6 +25,11 @@ public class MenuController : MonoBehaviour
     #endregion
 
     #region Play Button Methods
+    public void StartGame()
+    {
+        SceneManager.LoadScene("Instructions");
+    }
+
     public void PlayGame()
     {
         SceneManager.LoadScene("MainGame");

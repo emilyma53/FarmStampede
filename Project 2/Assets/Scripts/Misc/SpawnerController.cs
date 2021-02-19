@@ -10,6 +10,16 @@ public class SpawnerController : MonoBehaviour
 
     [SerializeField]
     private float m_Xbound;
+
+    [SerializeField]
+    private GameObject m_Coin;
+
+    [SerializeField]
+    private GameObject m_Player;
+    #endregion
+
+    #region Private Variables
+    private GameObject[] coinsList; 
     #endregion
 
     #region Initialization
@@ -22,10 +32,13 @@ public class SpawnerController : MonoBehaviour
     #region Spawn Methods
     public void StartSpawning()
     {
-        StartCoroutine(Spawn());
+        StartCoroutine(SpawnAnimals());
+        StartCoroutine(SpawnCoins());
     }
     #endregion
-    private IEnumerator Spawn()
+
+    #region Coroutines
+    private IEnumerator SpawnAnimals()
     {
         while (true)
         {
@@ -38,4 +51,20 @@ public class SpawnerController : MonoBehaviour
         }
     }
 
+    private IEnumerator SpawnCoins()
+    {   
+        yield return new WaitForSeconds(5);
+        while (true)
+        {
+            Vector3 coinSpawnPos = new Vector3(Random.Range(-m_Xbound, m_Xbound), transform.position.y + m_Coin.GetComponent<Coin>().SpawnHeight, m_Player.transform.position.z);
+            GameObject newCoin = Instantiate(m_Coin, coinSpawnPos, Quaternion.identity * Quaternion.Euler(0, 0, 90f));
+            yield return new WaitForSeconds(m_Coin.GetComponent<Coin>().DespawnTime);
+            if (newCoin != null)
+            {
+                Destroy(newCoin);
+            }
+        }
+        
+    }
+    #endregion
 }

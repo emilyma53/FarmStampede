@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 23139075055340906}
   - component: {fileID: 95010028461246732}
   - component: {fileID: 3305962076247206519}
-  - component: {fileID: 1623395968131645779}
   - component: {fileID: 9070298617557140573}
+  - component: {fileID: 5081605306198358380}
   m_Layer: 0
   m_Name: DuckWhite
   m_TagString: Untagged
@@ -118,20 +118,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
---- !u!136 &1623395968131645779
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1522729216997060}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.22
-  m_Height: 0.8
-  m_Direction: 1
-  m_Center: {x: 0.000000029802322, y: 0.29665187, z: -0.036257103}
 --- !u!114 &9070298617557140573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,6 +130,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1b6347c8c1324a0cbacfac580ccc9a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Speed: 9
+  m_Speed: 11
   m_Damage: 1
   m_Score: 0
+--- !u!65 &5081605306198358380
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522729216997060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.27, y: 0.57, z: 0.68}
+  m_Center: {x: 0.000000029802322, y: 0.29665187, z: -0.036257103}
