@@ -1,4 +1,4 @@
-# gameDevProj2
+# Farm Stampede
 
 Farm Stampede game created by Emily Ma and Brandon Htet as part of Game Design and Development course. Created in Unity.
 
